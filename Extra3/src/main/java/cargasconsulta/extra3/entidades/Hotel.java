@@ -82,6 +82,13 @@ public class Hotel extends Alojamiento {
     public void setGerente(String gerente) {
         this.gerente = gerente;
     }
+
+    @Override
+    public String toString() {
+        return "Hotel{" + "habitaciones=" + habitaciones + ", camas=" + camas + ", pisos=" + pisos + ", precio=" + precio + '}';
+    }
+
+    
     
     
 }
