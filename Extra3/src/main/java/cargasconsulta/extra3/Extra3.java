@@ -20,6 +20,7 @@ public class Extra3 {
         for (Alojamiento alojamiento : lista) {
             System.out.println(alojamiento.getNombre());
         }
+        
         System.out.println("-------------------");
         for (Alojamiento aux : lista) {
             if (aux instanceof Hotel4) {
